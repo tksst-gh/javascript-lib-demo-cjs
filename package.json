@@ -1,6 +1,6 @@
 {
   "name": "@tksst-gh/lib-demo-cjs",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "license": "Apache-2.0",
   "repository": "github:tksst-gh/javascript-lib-demo-cjs.git",
   "publishConfig": {
@@ -8,9 +8,7 @@
     "access": "public"
   },
   "type": "commonjs",
-  "exports": {
-    "require": "./dist/index.js"
-  },
+  "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "dependencies": {
     "@tksst/eslint-config": "2.3.1"
