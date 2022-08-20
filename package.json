@@ -1,15 +1,15 @@
 {
-  "name": "@tksst-gh/lib-demo-esm",
+  "name": "@tksst-gh/lib-demo-cjs",
   "version": "0.0.8",
   "license": "Apache-2.0",
-  "repository": "github:tksst-gh/javascript-lib-demo-esm.git",
+  "repository": "github:tksst-gh/javascript-lib-demo-cjs.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
     "access": "public"
   },
-  "type": "module",
+  "type": "commonjs",
   "exports": {
-    "import": "./dist/index.js"
+    "require": "./dist/index.js"
   },
   "types": "./dist/index.d.ts",
   "dependencies": {
